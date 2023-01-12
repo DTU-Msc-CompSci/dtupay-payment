@@ -12,7 +12,7 @@ import java.net.URI;
 public class TransactionResource {
 
     private TransactionService transactionService = new TransactionService();
-    
+
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
